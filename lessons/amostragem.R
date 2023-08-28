@@ -1,6 +1,6 @@
 # ler base de dados
 library(data.table)
-dados_salarios <- fread(input = paste0('dados_salarios.csv'), header = T, na.strings = "NA", data.table = FALSE, dec = ",")
+dados_salarios <- fread(input = paste0('lessons/dados_salarios.csv'), header = T, na.strings = "NA", data.table = FALSE, dec = ",")
 
 dados_salarios$trab_remoto = as.character(dados_salarios$trab_remoto)
 
