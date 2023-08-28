@@ -6,7 +6,7 @@ library(psych)
 
 # Base de dados
 dados <- fread(
-  input = paste0('mobile.csv'),
+  input = paste0('exercicio_1/mobile.csv'),
   header = T,
   na.strings = 'NA',
   data.table = FALSE,
